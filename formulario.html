@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Formulario</title>
+
+<link href="estilos.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+<h2>FORMULARIO DE CONTACTO.</h2>
+<h1>2 Llena los siguientes datos para que podamos comunicarnos con usted a la brevedad.</h1>
+<h3>Los campos marcados con * son obligatorios.</h3><br />
+
+
+<form id="form1" name="form1" method="post" action="enviar.php">
+  <label>
+    Nombre:<br />
+    <input name="Nombre" type="text" class="campo" id="Nombre" />
+  </label>
+  <span class="requerido">*</span><br />
+  <br />
+  Correo Electrónico:<br />
+  <label>
+    <input name="Correo" type="text" class="campo" id="Correo" />
+  </label>
+  <span class="requerido">*</span><br />
+  <br />
+  Teléfono:<br />
+  <label>
+    <input name="Telefono" type="text" class="campo" id="Telefono" />
+  </label>
+  <br />
+  <br />
+  Mensaje:<br />
+  <label>
+    <textarea name="Mensaje" cols="45" rows="5" class="campo2" id="Mensaje:"></textarea>
+  </label>
+  <span class="requerido">*</span><br />
+  <br />
+  <label>
+    <input type="image" src="img/enviar.png" name="Enviar" id="Enviar" value="Enviar Mensaje" />
+  </label>
+</form>
+<p>&nbsp;</p>
+</body>
+</html>
